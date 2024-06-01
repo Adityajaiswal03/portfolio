@@ -11,13 +11,19 @@ function HomePage(){
             <div className="name">
                 <h1>Aditya Jaiswal</h1>
             </div>
-          
-                    <Transition />
-            
+
+            <Transition />
+
             <div className="social">
-                <img src={linkdin} alt="linkdin"></img>
-                <img src={github} alt="github"></img>
-                <img src={mail} alt="mail"></img>
+                <a href="https://www.linkedin.com/in/aditya-jaiswal-27ab1b286/">
+                    <img src={linkdin} alt="linkdin"></img>
+                </a>
+                <a href="https://github.com/Adityajaiswal03">
+                    <img src={github} alt="github"></img>
+                </a>
+                <a href="mailto:aditya.jaiswal031103@gmail.com">
+                    <img src={mail} alt="mail"></img>
+                </a>
             </div>
         </div>
     );
