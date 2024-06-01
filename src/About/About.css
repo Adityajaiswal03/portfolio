@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.About{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    position: relative;;
+     display: flex;
+    flex-direction: row;
+}
+.info{
+    font-size: 25px;
+    height: 100%;
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
+}
+.Profile-pic{
+    height: 60%;
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
+}
+.Profile-pic img{
+    border: none;
+    border-radius: 0%;
+    height: 100%;
+    width: 80%;
+}

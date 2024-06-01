@@ -1,4 +1,3 @@
-
 import "./HomePage.css"
 import Transition from "./Transition.js"
 import linkdin from "./linkedin.svg";
