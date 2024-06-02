@@ -21,7 +21,7 @@ function Navbar(){
                         <Link to="/Projects">Projects</Link>
                     </li>
                     <li>
-                        <Link to="/Resume">Resume</Link>
+                        <a href="https://www.google.com/">Resume</a>
                     </li>
                 </ul>
             </div>
