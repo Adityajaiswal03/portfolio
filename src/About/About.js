@@ -6,7 +6,7 @@ function About(){
             <div className="heading">
                 <h1>About</h1>
             </div>
-            <div className="content">
+            <div className="About-Content">
                 <div className="info">
                     <p>
                         Hey there, I'm Aditya Jaiswal, a student at Scaler

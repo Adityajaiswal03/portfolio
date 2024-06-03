@@ -13,12 +13,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.content{
+.About-Content{
     position: relative;;
      display: flex;
     flex-direction: row;
 }
 .info{
+    color: white;
     font-size: 25px;
     height: 100%;
     width: 50%;
