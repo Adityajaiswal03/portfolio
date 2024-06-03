@@ -13,7 +13,7 @@ body {
 .timeline {
   position: relative;
   max-width: 1200px;
-  height: 80vh;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
