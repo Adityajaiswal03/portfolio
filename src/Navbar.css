@@ -1,4 +1,5 @@
 .nav-bar{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,20 +8,33 @@
     color: white;
     font-size: 1.2rem;
     font-weight: 500;  
-   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 .logo{
     margin-left: 2rem;
 }
-a{
-    color: white;
+.nav-list a {
+    color: white ;
     text-decoration: none;
     padding-bottom: 2px;
+    background: 
+    linear-gradient(to right,rgb(41, 41, 41), rgb(41, 41, 41)),
+    linear-gradient(to right,white,white,white);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
-li:hover {
-  text-decoration: underline; 
 
+.nav-list a:hover,
+.nav-list a:focus {
+
+    background-size: 0 0.1em, 100% 0.1em;
 }
+
 ul{
     list-style: none;
 }
@@ -37,4 +51,13 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }

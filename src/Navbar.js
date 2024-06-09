@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
+import logo from './logo.png';
 function Navbar(){
 
     return (
         <div className="nav-bar">
-            <div className="logo">Logo</div>
+            <div className="logo">
+                <img  src={logo}></img>
+            </div>
             <div className="nav-menu">
                 <ul className="nav-list">
                     <li>
@@ -21,7 +23,9 @@ function Navbar(){
                         <Link to="/Projects">Projects</Link>
                     </li>
                     <li>
-                        <a href="https://www.google.com/">Resume</a>
+                        <a href="#" target="_blank" className="navbar-anchor">
+                            Resume
+                        </a>
                     </li>
                 </ul>
             </div>

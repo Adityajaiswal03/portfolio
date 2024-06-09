@@ -1,0 +1,28 @@
+
+.main_postcard{
+    background-color: rgba(255, 217, 217, 0.788);
+    margin: 10px;
+    border-radius: 10px;
+}
+.product-name{
+    color: white;
+    padding: 0;
+    padding-top: 5px;
+}
+.product-img{
+    margin:0;
+    height: 20%;
+
+}
+.product-discription p{
+    color: white;
+    font-size: 20px;
+}
+.product-img img{
+    height: 80%;
+    width: 80%;
+}
+.github-productCard img{
+    height: 100px;
+    width: 50px;
+}

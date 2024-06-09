@@ -3,7 +3,7 @@ import profile from './profile.jpg'
 function About(){
     return (
         <div className="About">
-            <div className="heading">
+            <div className="About-heading">
                 <h1>About</h1>
             </div>
             <div className="About-Content">

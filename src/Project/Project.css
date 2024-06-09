@@ -1,0 +1,17 @@
+.project-title{
+
+    margin-top: 5px;
+}
+.project-title h1{
+    color: white;
+    padding-top: 10px;
+    font-size: 70px;
+}
+.project-content{
+    display: flex;
+    justify-content: space-between;
+}
+.project-card{
+    height: 40%;
+    width: 40%;
+}
