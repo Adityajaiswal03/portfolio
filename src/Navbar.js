@@ -23,7 +23,7 @@ function Navbar(){
                         <Link to="/Projects">Projects</Link>
                     </li>
                     <li>
-                        <a href="#" target="_blank" className="navbar-anchor">
+                        <a href="www.google.com" target="_blank" className="navbar-anchor">
                             Resume
                         </a>
                     </li>
