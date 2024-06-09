@@ -1,5 +1,5 @@
 import './ProjectCard.css';
-import github from '/Users/adi/Documents/Study/Trimester 4/Development/React/portfolio/src/HomePage/github.svg';
+import github from './github.svg';
 function projectCard(props) {
   return (
       <div className="main_postcard">
