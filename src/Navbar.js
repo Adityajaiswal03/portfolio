@@ -6,7 +6,7 @@ function Navbar(){
     return (
         <div className="nav-bar">
             <div className="logo">
-                <img  src={logo}></img>
+                <img src={logo}></img>
             </div>
             <div className="nav-menu">
                 <ul className="nav-list">
@@ -23,7 +23,11 @@ function Navbar(){
                         <Link to="/Projects">Projects</Link>
                     </li>
                     <li>
-                        <a href="https://www.google.com" target="_blank" className="navbar-anchor">
+                        <a
+                            href="https://docs.google.com/document/d/1YjumnQmUTyTD7iTqQmQVcL-o4reUGJrMPuNU00M6bcg/edit?usp=sharing"
+                            target="_blank"
+                            className="navbar-anchor"
+                        >
                             Resume
                         </a>
                     </li>
